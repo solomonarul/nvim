@@ -13,12 +13,12 @@ return {
     end,
   },
 
-  {
-    "nvim-treesitter/nvim-treesitter",
-      opts = {
-        ensure_installed = {
-          "vim", "lua", "vimdoc", "clangd"
-        },
-  	},
-  },
+  -- {
+    -- "nvim-treesitter/nvim-treesitter",
+      -- opts = {
+        -- ensure_installed = {
+          -- "vim", "lua", "vimdoc", "clangd"
+        -- },
+  	-- },
+  -- },
 }
